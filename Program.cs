@@ -8,7 +8,7 @@ namespace jobbOffer
     {
         static void Main(string[] args)
         {
-            List<string> pwdList = new List<string> { "Ib#", "Blo", "F09", "Hkf", "Ev!", "K%2", "Awe", "Cve", "Lee", "J61", "Gvc", "Dde" };
+            List<string> pwdList = new List<string> { "Ib#", "Blo", "F09", "Hkf", "Ev!", "K%2", "Awe", "Cve", "Lee", "J61", "Gvc", "DdeAA" };
             List<string> skillList = new List<string> { ".Net Core", "XAML", "WPF", "ASP MVC", "LINQ" };
 
             string test1 = pwdList.Take(1).Aggregate((i, j) => i + j);
